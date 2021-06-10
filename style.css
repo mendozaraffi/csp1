@@ -1,0 +1,27 @@
+/*Below is PREFOOTER code*/
+.prefooter-container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #002540;
+	color: white
+}
+
+.prefooter-wrapper {
+	display: flex;
+	width: 100%;
+	flex: 1;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 0.8rem;
+}
+
+/*Below is FOOTER code*/
+footer {
+	display: inline-block;
+	padding: 0.7rem;
+}
+
+footer span {
+	margin-left: 0.5rem;
+	margin-right 0.5rem;
+}

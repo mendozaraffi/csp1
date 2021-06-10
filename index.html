@@ -22,7 +22,7 @@
 
 		<!-- COMPONENT 1: NAVBAR with NAVIGATION Menu -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-	  <a class="navbar-brand" href="#">Raffi</a>
+	  <a class="navbar-brand" href="#">Home</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -31,19 +31,19 @@
 		    <ul class="navbar-nav mr-auto">
 
 		      <li class="nav-item active">
-		        	<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		        	<a class="nav-link" href="#"> About me <span class="sr-only">(current)</span></a>
 		      </li>
 
 		      <li class="nav-item">
-		        	<a class="nav-link" href="#">Project</a>
+		        	<a class="nav-link" href="#"> Tools </a>
 		      </li>
 
 		      <li class="nav-item">
-		        	<a class="nav-link" href="#">Gallery</a>
+		        	<a class="nav-link" href="#"> Project </a>
 		      </li>
 		       
 		       <li class="nav-item">
-		        	<a class="nav-link" href="#contact">Contacts</a>
+		        	<a class="nav-link" href="#contact"> Contact </a>
 		        	<!-- Added #contact as link ref to contacts form -->
 		      </li>
 
@@ -172,35 +172,53 @@
 	</div>
 
 
+
+	<h1 class="text-center mb-5 font-weight-bold"> Contact </h1>
+
 	<div class="container mb-5">
 		
-		<h1 class=" text-center mb-5 font-weight-bold"> Contact </h1>
-		<div class="row justify-content-md-center">
-		<div class="col-12 col-md-5">
+		<!-- FIRST ROW -->
+		<div class="row">
 
-		<form>
+			<div class="col-md-6 bg-light">
 
-			<div class="form-group">
-			    <label for="userName"> Full Name </label>
-			    <input type="text" class="form-control" id="userName" placeholder="Juan Dela Cruz">
+				<div class="card m-5">
+				  <div class="card-body">
+
+						<form>
+
+							<div class="form-group">
+							    <label for="userName"> Full Name </label>
+							    <input type="text" class="form-control" id="userName" placeholder="Juan Dela Cruz">
+							</div>
+
+							<div class="form-group">
+							    <label for="exampleFormControlInput1">Email address</label>
+							    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+							</div>
+
+							<div class="form-group">
+							    <label for="exampleFormControlTextarea1"> Message </label>
+							    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+							</div>
+
+							<button class="btn btn-primary" type="submit"> Submit </button>
+			
+						</form>
+
+				  </div>
+				</div>
+
+			</div>	
+
+				<!-- THIS IS GOOGLE MAP -->
+			<div class="col-md-6 bg-light">	
+
+					<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Magallanes,%20Makati&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">add google maps to website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
 			</div>
-
-			<div class="form-group">
-			    <label for="exampleFormControlInput1">Email address</label>
-			    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-			</div>
-
-			<div class="form-group">
-			    <label for="exampleFormControlTextarea1"> Message </label>
-			    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-			</div>
-
-			<button class="btn btn-primary" type="submit"> Submit </button>
-
-		</form>	
+				<!-- THIS IS GOOGLE MAP -->
 		</div>
-		</div>
-	</div>
+	</div>	
 
 
 
@@ -255,6 +273,53 @@
 	</div>	
 
 
+	<section class="prefooter-container">
+
+		<div class="prefooter-wrapper">
+			<h3> About Us </h3>
+				<p> History </p>
+				<p> Mission & Vision</p>
+				<p> Founders </p>
+				<p> Branches</p>
+		</div>
+
+
+		<div class="prefooter-wrapper">
+			<h3> Careers</h3>
+				<p> Junior Developer </p>
+				<p> Marketing Associate</p>
+				<p> Legal Staff </p>
+				<p> Junior Accountant</p>
+		</div>	
+
+
+		<div class="prefooter-wrapper">
+			<h3> Follow Me </h3>
+				<img src="">
+
+				<p> Facebook </p>
+
+				<img src="	">
+				<p> LinkedIn </p>			
+		</div>
+
+
+		<div class="prefooter-wrapper">
+			<h3> Contact </h3>
+				<p> Telephone: (02) 8 282 9520 </p>
+				<p> Cellphone #: 0917 166 8714 </p>
+				<p> Email: mendozaraffi@gmail.com</p>
+		</div>
+
+	</section>
+
+	<footer>
+		<span> Terms of Service </span>
+		<span> | </span>
+		<span> Privacy Policy </span>
+		<span> | </span>
+		<span> &copy; 2017-2021 Zuitt. All Rights Reserved</span>
+	</footer>
 
 
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
