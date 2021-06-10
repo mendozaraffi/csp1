@@ -50,11 +50,17 @@ footer span {
  	background-size: 100%;
  	text-align: center;
  	color: white;
- 	font-size: 50px;
+ 	font-size: 100px;
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
 }
 
+.jumbotron > p {
+	font-family: papyrus;
 
-
+}
+ 
 /*MAP*/
 
 .map {
