@@ -116,9 +116,6 @@ a {
 }
 
 
-img	{
-	width: 100%;
-	
 .card {
 	display: grid;
 	grid-template-columns: 1fr 1fr
