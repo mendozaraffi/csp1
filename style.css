@@ -28,30 +28,72 @@ footer span {
 
 /*FOLLOW ME ICONS*/
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
 .fa:hover {
     opacity: 0.7;
 }
 
 .fa-facebook {
-  background: #3B5998;
   color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
   color: white;
 }
 
 .fa-instagram {
-  background: #125688;
   color: white;
 }
+
+
+.jumbotron {
+ 	background-image: url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80); 
+ 	background-size: 100%;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 50px;
+}
+
+
+
+/*MAP*/
+
+.map {
+  	width: 90%;
+	height: 0;
+	margin: 0 auto;
+	padding-top: 33.33%;
+	position: relative;
+		}
+		
+
+.map iframe {
+	width: 100%;
+	height: 100%; /* had to specify height/width */
+	position: absolute;
+	top: 0; 
+	right: 0;
+	left: 0; 
+	bottom: 0;   
+}
+
+
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:600px;
+}
+
+.map	{
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:600px;
+}
+
+
+.whatdo {
+	background-image: url(./images/backwhat.png);
+}
+
