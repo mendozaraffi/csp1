@@ -159,21 +159,22 @@ a {
 
 
 #headerfont {
-	font-size: 8vw;
+	font-size: 5vw;
 	display: inline-block;
 	height: auto;
 	width: auto;
+	font-family: courier;
 
 }
 
 #subheaderfont {
-	font-size: 4vw;
+	font-size: 3vw;
 
 }
 
 #fontheader {
 	color: #d93d61;
-	font-size: 8vw;
+	font-size: 5vw;
 }
 /*MAP*/
 
