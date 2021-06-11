@@ -4,6 +4,7 @@
 	flex-wrap: wrap;
 	background-color: #002540;
 	color: white
+
 }
 
 .prefooter-wrapper {
@@ -179,5 +180,5 @@ a {
 /*MAP*/
 
 .navbar {
-	padding: 35px;
+	padding: 25px;
 }
