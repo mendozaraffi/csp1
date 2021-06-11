@@ -126,7 +126,7 @@ a {
 }
 
 .card img {
-	height: 400px;
+	height: auto;
 	width: 100%;
 }
 
@@ -159,12 +159,12 @@ a {
 
 
 #headerfont {
-	font-size: 4rem;
+	font-size: 2rem;
 
 }
 
 #subheaderfont {
-	font-size: 3rem;
+	font-size: 1rem;
 
 }
 
