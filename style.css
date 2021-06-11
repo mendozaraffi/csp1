@@ -178,6 +178,7 @@ a {
 }
 /*MAP*/
 
-li a:hover {
-	color:  #002540;
+.navbar {
+	color: white;
+	background-color: #002540;
 }
