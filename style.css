@@ -176,3 +176,7 @@ a {
 	font-size: 8vw;
 }
 /*MAP*/
+
+li a:hover {
+	color:  #002540;
+}
